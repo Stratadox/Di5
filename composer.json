@@ -1,5 +1,5 @@
 {
-  "name": "stratadox/di",
+  "name": "stratadox/di5",
   "type": "library",
   "description": "A most simplistic Dependency Injection Container",
   "keywords": [
@@ -12,7 +12,8 @@
     "container",
     "simple",
     "small",
-    "lightweight"
+    "lightweight",
+    "php5"
   ],
   "license": "MIT",
   "authors": [
