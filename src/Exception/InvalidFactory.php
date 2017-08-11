@@ -3,14 +3,15 @@
 namespace Stratadox\Di\Exception;
 
 use RuntimeException;
-use Exception;
+use Throwable;
 
 class InvalidFactory extends RuntimeException implements InvalidServiceDefinition
 {
     public static function threwException(
-        $serviceName,
-        Exception $exception
-    ) {
+        string $serviceName,
+        Throwable $exception
+    ) : Throwable
+    {
         return new static(sprintf(
             'Service `%s` was configured incorrectly and could not be created: %s',
             $serviceName,

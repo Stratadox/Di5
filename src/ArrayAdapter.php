@@ -25,7 +25,7 @@ class ArrayAdapter implements ArrayAccess
      * @param string $offset
      * @return bool
      */
-    public function offsetExists($offset)
+    public function offsetExists($offset) : bool
     {
         return $this->container->has($offset);
     }

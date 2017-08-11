@@ -13,6 +13,7 @@ use Stratadox\Di\Test\Stub\Bar;
 use Stratadox\Di\Test\Stub\BarInterface;
 use Stratadox\Di\Test\Stub\Baz;
 use Stratadox\Di\Test\Stub\Foo;
+use Throwable;
 
 class ContainerTest extends TestCase
 {
@@ -346,7 +347,7 @@ class ContainerTest extends TestCase
 
         try {
             $di->get('foo');
-        } catch (Exception $exception) {
+        } catch (Throwable $exception) {
             // As expected.
         }
 
