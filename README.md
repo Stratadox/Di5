@@ -1,7 +1,7 @@
 # Di 
 
-[![Build Status](https://travis-ci.org/Stratadox/Di.svg?branch=master)](https://travis-ci.org/Stratadox/Di)
-[![Coverage Status](https://coveralls.io/repos/github/Stratadox/Di/badge.svg?branch=master)](https://coveralls.io/github/Stratadox/Di?branch=master)
+[![Build Status](https://travis-ci.org/Stratadox/Di5.svg?branch=master)](https://travis-ci.org/Stratadox/Di)
+[![Coverage Status](https://coveralls.io/repos/github/Stratadox/Di5/badge.svg?branch=master)](https://coveralls.io/github/Stratadox/Di?branch=master)
 
 A minimalistic Dependency Injection Container
 
