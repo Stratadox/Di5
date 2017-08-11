@@ -7,13 +7,9 @@ A minimalistic Dependency Injection Container
 
 Services are lazy loaded through the use of anonymous functions.
 
-## Installation
+## NOTE
 
-Install using composer:
-
-```
-composer require stratadox/di
-```
+This version is deprecated. If you're running php7 or higher, please consider using https://github.com/Stratadox/Di5 instead.
 
 ## Basic usage
 
