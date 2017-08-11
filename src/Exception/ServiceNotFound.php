@@ -8,7 +8,7 @@ use Throwable;
 
 class ServiceNotFound extends RuntimeException implements NotFoundExceptionInterface
 {
-    public static function noServiceNamed(string $serviceName) : Throwable
+    public static function noServiceNamed($serviceName)
     {
         return new static(sprintf(
             'No service registered for %s',

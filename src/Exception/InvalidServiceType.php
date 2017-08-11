@@ -7,10 +7,9 @@ use Throwable;
 class InvalidServiceType extends InvalidFactory
 {
     public static function serviceIsNotOfType(
-        string $serviceName,
-        string $expectedType
-    ) : Throwable
-    {
+        $serviceName,
+        $expectedType
+    ) {
         return new static(sprintf(
             'Service %s is not of type %s',
             $serviceName,

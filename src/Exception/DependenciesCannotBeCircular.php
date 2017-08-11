@@ -6,7 +6,7 @@ use Throwable;
 
 class DependenciesCannotBeCircular extends InvalidFactory
 {
-    public static function loopDetectedIn($serviceName) : Throwable
+    public static function loopDetectedIn($serviceName)
     {
         return new static(sprintf(
             'Circular dependency loop detected in factory `%s`.',
