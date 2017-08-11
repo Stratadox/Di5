@@ -9,7 +9,7 @@ Services are lazy loaded through the use of anonymous functions.
 
 ## Php 5.x
 
-This version is deprecated. If you're running Php 7 or higher, please consider using https://github.com/Stratadox/Di5 instead.
+This version is deprecated. If you're running Php 7 or higher, please consider using [Stratadox/Di](https://github.com/Stratadox/Di) instead.
 
 ## Installation
 
