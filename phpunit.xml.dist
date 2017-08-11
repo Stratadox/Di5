@@ -10,7 +10,7 @@
         syntaxCheck="true">
 
     <testsuites>
-        <testsuite name="Stratadox/Di test suite">
+        <testsuite name="Stratadox/Di5 test suite">
             <directory suffix="Test.php">tests</directory>
         </testsuite>
     </testsuites>
